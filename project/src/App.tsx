@@ -13,7 +13,7 @@ export default function App() {
   }
 
   return (
-    <main className="bg-black">
+    <main>
       <Routes>
         <Route path="/" element={<SinglePageLayout />} />
         <Route path="/login" element={<Login onSectionChange={handleSectionChange} />} />
