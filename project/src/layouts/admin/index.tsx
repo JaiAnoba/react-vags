@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import Navbarr from "components/navbar/index";
-import Sidebar from "components/sidebar";
-import Footer from "components/footer/Footer";
-import routes from "routes";
+import Navbarr from "@/components/navbar/index";
+import Sidebar from "@/components/sidebar";
+import Footer from "@/components/footer/Footer";
+import routes from "@/routes";
 
 type RouteType = {
   name: string;

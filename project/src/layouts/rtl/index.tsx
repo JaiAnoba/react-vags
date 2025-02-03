@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import Navbar from "components/navbar/RTL";
-import Sidebar from "components/sidebar/RTL";
-import Footer from "components/footer/Footer";
-import routes from "routes";
+import Navbar from "@/components/navbar/RTL";
+import Sidebar from "@/components/sidebar/RTL";
+import Footer from "@/components/footer/Footer";
+import routes from "@/routes";
 
 export default function RTL() {
   const location = useLocation();
