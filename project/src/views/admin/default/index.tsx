@@ -1,4 +1,4 @@
-import MiniCalendar from "../../../components/calendar/MiniCalendar";
+import MiniCalendar from "@/components/calendar/MiniCalendar";
 import WeeklyRevenue from "./components/WeeklyRevenue";
 import TotalSpent from "./components/TotalSpent";
 import PieChartCard from "./components/PieChartCard";
@@ -6,7 +6,7 @@ import { IoMdHome } from "react-icons/io";
 import { IoDocuments } from "react-icons/io5";
 import { MdBarChart, MdDashboard } from "react-icons/md";
 
-import Widget from "../../../components/widget/Widget";
+import Widget from "@/components/widget/Widget";
 import CheckTable from "./components/CheckTable";
 import ComplexTable from "./components/ComplexTable";
 import DailyTraffic from "./components/DailyTraffic";
