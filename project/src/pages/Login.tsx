@@ -49,7 +49,7 @@ export function Login({ onSectionChange }: { onSectionChange: (section: string) 
     if (!hasErrors) {
       setModalVisible(true);
       form.reset();
-      navigate('/admin/default/index'); 
+      navigate('/views/admin/default/index'); 
     }
   };
 

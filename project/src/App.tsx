@@ -3,7 +3,7 @@ import { Login } from './pages/Login'
 import { SignUp } from './pages/SignUp'
 import './styles/global.css'
 import { Routes, Route } from 'react-router-dom'
-import Default from './views/admin/default/index';
+import AdminDashboard from './views/admin/default/index';
 
 export default function App() {
   const handleSectionChange = (section: string) => {
@@ -15,7 +15,7 @@ export default function App() {
         <Route path="/" element={<SinglePageLayout />} />
         <Route path="/login" element={<Login onSectionChange={handleSectionChange} />} />
         <Route path="/signup" element={<SignUp onSectionChange={handleSectionChange} />} />
-        <Route path="/admin/default" element={<Default />} />
+        <Route path="/views/admin/default/index" element={<AdminDashboard />} />
       </Routes>
     </main>
   )
